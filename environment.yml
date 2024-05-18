@@ -1,0 +1,15 @@
+name: caves-data
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pip
+  - cuda-libraries-dev=11.8
+  - cuda-nvcc=11.8
+  - cudatoolkit=11.8
+  - pip:
+      - -r requirements_dev.txt
+      - -r requirements.txt
