@@ -1,1 +1,3 @@
 ktrain==0.41.3
+tensorflow[and-cuda]==2.15.1
+tf-keras==2.15.1
