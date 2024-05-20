@@ -2,3 +2,5 @@ ktrain==0.41.3
 tensorflow[and-cuda]==2.15.1
 tf-keras==2.15.1
 pqdm==0.2.0
+transformers==4.40.1
+setfit==1.0.3
