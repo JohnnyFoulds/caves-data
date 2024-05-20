@@ -1,2 +1,5 @@
 models/
 __pycache__
+
+notebooks/03_setfit/checkpoints/
+notebooks/03_setfit/runs/
