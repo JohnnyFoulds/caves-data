@@ -47,6 +47,7 @@ Subset Accuracy            	0.301
 
 #### 16 samples per class
 
+```text
 -- 1 (0.72) --
 F1 Score (Macro-Average)   	0.499
 F1 Score (Weighted-Average)	0.551
@@ -58,6 +59,7 @@ F1 Score (Macro-Average)   	0.504
 F1 Score (Weighted-Average)	0.561
 Average Jaccard Similarity 	0.509
 Subset Accuracy            	0.409
+```
 
 
 #### differentiable head
@@ -73,6 +75,7 @@ model = SetFitModel.from_pretrained(
 )
 ```
 
+```text
 -- 1 (0.60) --
 F1 Score (Macro-Average)   	0.323
 F1 Score (Weighted-Average)	0.389
@@ -90,5 +93,18 @@ F1 Score (Macro-Average)   	0.408
 F1 Score (Weighted-Average)	0.446
 Average Jaccard Similarity 	0.387
 Subset Accuracy            	0.308
+```
 
 ## Alibaba-NLP/gte-large-en-v1.5
+
+### one-vs-rest 
+
+#### 16 samples per class
+
+```text
+-- 2 (0.99) --
+F1 Score (Macro-Average)   	0.559
+F1 Score (Weighted-Average)	0.619
+Average Jaccard Similarity 	0.573
+Subset Accuracy            	0.474
+```
